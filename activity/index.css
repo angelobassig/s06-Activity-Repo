@@ -1,0 +1,106 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+	padding: 0.8rem;
+	margin-bottom:  2rem;
+	border-bottom: 1px solid gray;
+	list-style-type: none;
+}
+
+nav > ul > li {
+	display: inline;
+	margin:  0.8rem;
+}
+
+#intro {
+	margin: 2rem;
+	text-align: center;
+	padding: 2rem 10%;
+}
+
+.header {
+
+}
+
+#intro > h2, #intro p {
+	margin-bottom: 1rem;
+}
+
+div > button {
+	border-radius: 25px;
+	padding: 1rem;
+	background-color: #c2195b;
+	color: white;
+	border: 1px red solid;
+	margin: 5px;
+	font-weight: bold;
+	font-size: 1rem;
+}
+
+#succeed-info h3, #succeed-info .header {
+	text-align: center;
+	margin: 1rem;
+}
+
+#succeed-info .card {
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+	min-height: 180px;
+}
+
+footer {
+	clear: left;
+	padding: 1rem;
+	text-align: center;
+}
+
+footer span {
+	margin-left: 0.4rem;
+	margin-right: 0.4rem;
+}
+
+/* Bassig, Angelo CSS Style */
+
+/* Stretch Goal */
+
+#pre-footer {
+	background-color: #002540;
+	padding: 2rem;
+	font-family: arial;
+	color: white;
+}
+
+.pre-footer {
+	display: inline-block;
+	width: 15%;
+	vertical-align: top;
+	min-height: 100px;
+	margin-left: 0.4rem;
+	margin-right: 0.4rem;
+}
+
+.pre-footer > h3 {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	font-size: 1.1rem;
+}
+
+.pre-footer > p {
+	font-size: 0.9rem;
+}
+
+
+
+
+
